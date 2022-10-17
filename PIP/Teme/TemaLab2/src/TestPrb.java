@@ -1,8 +1,10 @@
+// Tema trimisa de Petrila Paul-Cosmin, 1301A, la ora 1:50 AM :)
+
 public class TestPrb {
 
         public static void main(String[] args) {
           Masina bmwDeBombardier = new Masina();
-          String[] test= {new String("mega"), new String("mega"),  new String("super"), new String("utltra")};
+          String[] test= {"mega", new String("mega"),  new String("super"), new String("utltra")};
           Masina volsvagenBassat = new Masina("volvasgen", 2030, 300, test );
           bmwDeBombardier.printCar();
           volsvagenBassat.printCar();
